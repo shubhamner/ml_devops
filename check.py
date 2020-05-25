@@ -1,4 +1,4 @@
-f = open("code.py", "r")
+f = open("new_code.py", "r")
 check_code = f.read()
 
 if 'keras' and 'Convolution2D' and 'MaxPooling2D' and 'Sequential' in check_code:				
