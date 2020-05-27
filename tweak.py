@@ -1,4 +1,4 @@
-f = open("code.py", "r")
+f = open("/root/mldev/cnn.py", "r")
 contents = f.readlines()
 f.close()
 
@@ -28,7 +28,7 @@ if conv_count < 2:
 	str_num = str(num)
 	contents[34] = "epochs = "+str_num+"\n"
 	print(contents[34])
-	f = open("code.py", "w")
+	f = open("/root/mldev/cnn.py", "w")
 	contents = "".join(contents)
 	f.write(contents)
 	f.close()
@@ -43,7 +43,7 @@ elif conv_count == 2:
 		str_num = str(num)
 		contents[36] = "epochs = "+str_num+"\n"
 		print(contents[36])
-		f = open("code.py", "w")
+		f = open("/root/mldev/cnn.py", "w")
 		contents = "".join(contents)
 		f.write(contents)
 		f.close()
@@ -55,7 +55,7 @@ elif conv_count == 2:
 		str_num = str(num)
 		contents[36] = "epochs = "+str_num+"\n"
 		print(contents[36])
-		f = open("code.py", "w")
+		f = open("/root/mldev/cnn.py", "w")
 		contents = "".join(contents)
 		f.write(contents)
 		f.close()
