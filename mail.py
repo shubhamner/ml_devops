@@ -1,4 +1,4 @@
-f = open("accuracy.txt", "r")
+f = open("/root/mldev/accuracy.txt", "r")
 acc = f.readlines()
 f.close()
 accuracy = str(acc[0])
